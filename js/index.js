@@ -17,7 +17,7 @@ food = {x: 6, y: 7};
 function main(ctime) {
     window.requestAnimationFrame(main);
     // console.log(ctime)
-    if((ctime - lastPaintTime)/6000 < 1/speed){
+    if((ctime - lastPaintTime)/5000 < 1/speed){
         return;
     }
     lastPaintTime = ctime;
